@@ -1,0 +1,106 @@
+<!--
+Academic homepage template for GitHub Pages.
+Save this file as `index.html` and push to the root of a GitHub repository.
+Replace placeholders (YOUR NAME, CV link, etc.) as instructed below.
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Satoshi Matsuzawa — Academic Homepage</title>
+  <meta name="description" content="Satoshi Matsuzawa — independent researcher (Ph.D., Yale). Research on institutions and economic growth.">
+  <style>
+    :root{--maxw:900px;--accent:#0b66ff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.6;margin:0;color:#111;background:#f7f7fb}
+    header{background:#fff;border-bottom:1px solid #e6e8eb;position:sticky;top:0;z-index:20}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:28px}
+    nav{display:flex;gap:12px;align-items:center}
+    nav a{color:#333;text-decoration:none;padding:8px;border-radius:6px;font-weight:600}
+    nav a:hover{background:#f0f4ff;color:var(--accent)}
+    .hero{padding:36px 0}
+    h1{margin:0;font-size:1.6rem}
+    .lead{margin-top:8px;color:#444}
+    section{background:#fff;margin:20px 0;padding:22px;border-radius:10px;box-shadow:0 6px 18px rgba(28,32,45,0.04)}
+    h2{margin-top:0;font-size:1.1rem}
+    ul{margin:0;padding-left:1.1rem}
+    .doi{font-size:0.95rem}
+    .meta{color:#666;font-size:0.95rem;margin-top:6px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700;background:var(--accent);color:#fff}
+    footer{font-size:0.9rem;color:#666;text-align:center;padding:24px 0}
+    @media (max-width:640px){.wrap{padding:18px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div style="flex:1;font-weight:700">Satoshi Matsuzawa</div>
+        <div>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#cv">CV</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="about" class="hero">
+      <h1>Satoshi Matsuzawa</h1>
+      <p class="lead">I am an independent researcher working at a management consulting firm, after receiving my Ph.D. in Economics from Yale University. My research interests lie in institutions that contribute to economic growth and development. I am open to applying for entry-level academic positions should opportunities arise.</p>
+      <p class="meta">Based in Tokyo. Available for academic job applications and research collaborations.</p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <h3>Published papers</h3>
+      <ul>
+        <li>
+          <strong>Organizational Economics</strong><br>
+          Satoshi Matsuzawa, <em>Optimal incentive power for inter-team competition</em>, <strong>Economics Letters</strong>, Volume 239 (2024), 111733. <span class="doi">DOI: <a href="https://doi.org/10.1016/j.econlet.2024.111733" target="_blank" rel="noopener">10.1016/j.econlet.2024.111733</a></span>
+        </li>
+      </ul>
+
+      <h3 style="margin-top:14px">Working papers</h3>
+      <ul>
+        <li><em>Development of Employment Placement Systems in Japan</em></li>
+        <li><em>Wedge Accounting Analysis of Long-run Japanese Economic Growth</em></li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>CV</h2>
+      <p>If you would like a full CV, download it below (replace <code>cv.pdf</code> with your actual CV file in the repository):</p>
+      <p><a class="btn" href="cv.pdf" download>Download CV (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you prefer email, click the button below to open a mail client. The visible address is obfuscated to reduce spam.</p>
+      <p>
+        <button class="btn" onclick="revealEmail()" style="background:#1b1f23">Email me</button>
+        <span style="margin-left:10px;color:#444">satoshi.matsuzawa.g [at] gmail.com</span>
+      </p>
+    </section>
+
+    <footer>
+      <small>Template created for GitHub Pages. Replace any placeholder text and the <code>cv.pdf</code> link before publishing.</small>
+    </footer>
+  </main>
+
+  <script>
+    function revealEmail(){
+      var u = 'satoshi.matsuzawa.g';
+      var d = 'gmail.com';
+      var addr = u + '@' + d;
+      location.href = 'mailto:' + addr;
+    }
+  </script>
+</body>
+</html>
