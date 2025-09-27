@@ -8,6 +8,7 @@
   <style>
     :root { --maxw:900px; }
     * { box-sizing:border-box; }
+
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.6; margin:0; color:#111; background:#fff; }
 
     header { border-bottom:1px solid #ddd; position:sticky; top:0; z-index:20; background:#fff; }
@@ -24,12 +25,8 @@
     section { margin:20px 0; }
     h2 { margin-top:0; font-size:1.2rem; border-bottom:1px solid #ddd; padding-bottom:4px; }
 
-    /* Research Lists */
     ul { margin:0; padding-left:1.2rem; }
     li { margin:2px 0; }
-
-    /* Nested lists */
-    ul ul { padding-left:1.2rem; }
 
     a { color:#0066cc; text-decoration:none; }
     a:hover { text-decoration:underline; }
@@ -63,31 +60,18 @@
 
     <section id="research">
       <h2>Research</h2>
-      <ul>
-        <li>
-          <strong>Published Articles</strong>
-          <ul>
-            <li>
-              <strong>Organizational Economics</strong>
-              <ul>
-                <li>Satoshi Matsuzawa, <i>Optimal incentive power for inter-team competition</i>, <b>Economics Letters</b>, Volume 239, 2024, 111733, <a href="https://doi.org/10.1016/j.econlet.2024.111733" target="_blank">Link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
 
-        <li>
-          <strong>Working Papers</strong>
-          <ul>
-            <li>
-              <strong>Development Economics</strong>
-              <ul>
-                <li>Development of Employment Placement Systems in Japan</li>
-                <li>Wedge Accounting Analysis of Long-run Japanese Economic Growth</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
+      <p><strong>Published Articles</strong></p>
+      <p><strong>Organizational Economics</strong></p>
+      <ul style="margin:2px 0 6px 1.2rem; padding-left:0; list-style-type:disc;">
+        <li>Satoshi Matsuzawa, <i>Optimal incentive power for inter-team competition</i>, <b>Economics Letters</b>, Volume 239, 2024, 111733, <a href="https://doi.org/10.1016/j.econlet.2024.111733" target="_blank">Link</a></li>
+      </ul>
+
+      <p><strong>Working Papers</strong></p>
+      <p><strong>Development Economics</strong></p>
+      <ul style="margin:2px 0 6px 1.2rem; padding-left:0; list-style-type:disc;">
+        <li>Development of Employment Placement Systems in Japan</li>
+        <li>Wedge Accounting Analysis of Long-run Japanese Economic Growth</li>
       </ul>
     </section>
 
@@ -98,8 +82,10 @@
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: satoshi.matsuzawa.g [at] gmail.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/satoshi-matsuzawa-7a758842/" target="_blank">Satoshi Matsuzawa</a></p>
+      <ul style="margin:0; padding-left:1.2rem; list-style-type:disc;">
+        <li>Email: satoshi.matsuzawa.g [at] gmail.com</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/satoshi-matsuzawa-7a758842/" target="_blank">Satoshi Matsuzawa</a></li>
+      </ul>
     </section>
 
     <footer>
