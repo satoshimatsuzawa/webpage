@@ -6,35 +6,48 @@
   <title>Satoshi Matsuzawa — Academic Homepage</title>
   <meta name="description" content="Satoshi Matsuzawa — independent researcher (Ph.D., Yale). Research on institutions and economic growth.">
   <style>
-    :root{--maxw:900px}
-    *{box-sizing:border-box}
-    body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.6;margin:0;color:#111;background:#fff}
-    header{border-bottom:1px solid #ddd;position:sticky;top:0;z-index:20;background:#fff}
-    .wrap{max-width:var(--maxw);margin:0 auto;padding:28px}
-    nav{display:flex;gap:12px;align-items:center}
-    nav a{color:#333;text-decoration:none;padding:8px;border-radius:6px;font-weight:600}
-    nav a:hover{background:#f0f0f0}
-    .hero{padding:36px 0}
-    h1{margin:0;font-size:1.6rem}
-    .lead{margin-top:8px;color:#444}
-    section{margin:20px 0}
-    h2{margin-top:0;font-size:1.1rem;border-bottom:1px solid #ddd;padding-bottom:4px}
-    ul{margin:0;padding-left:1.1rem}
-    .doi{font-size:0.95rem}
-    .meta{color:#666;font-size:0.95rem;margin-top:6px}
-    footer{font-size:0.9rem;color:#666;text-align:center;padding:24px 0}
-    @media (max-width:640px){.wrap{padding:18px}}
+    :root { --maxw:900px; }
+    * { box-sizing:border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.6; margin:0; color:#111; background:#fff; }
+
+    header { border-bottom:1px solid #ddd; position:sticky; top:0; z-index:20; background:#fff; }
+    .wrap { max-width:var(--maxw); margin:0 auto; padding:28px; }
+
+    nav { display:flex; gap:12px; align-items:center; }
+    nav a { color:#333; text-decoration:none; padding:8px; border-radius:6px; font-weight:600; }
+    nav a:hover { background:#f0f0f0; }
+
+    .hero { padding:36px 0; }
+    h1 { margin:0; font-size:1.6rem; }
+    .lead { margin-top:8px; color:#444; }
+
+    section { margin:20px 0; }
+    h2 { margin-top:0; font-size:1.2rem; border-bottom:1px solid #ddd; padding-bottom:4px; }
+
+    /* Research Lists */
+    ul { margin:0; padding-left:1.2rem; }
+    li { margin:2px 0; }
+
+    /* Nested lists */
+    ul ul { padding-left:1.2rem; }
+
+    a { color:#0066cc; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    footer { font-size:0.9rem; color:#666; text-align:center; padding:24px 0; }
+
+    @media (max-width:640px) { .wrap { padding:18px; } }
   </style>
 </head>
 <body>
   <header>
     <div class="wrap">
       <nav>
-        <div style="flex:1;font-weight:700">Satoshi Matsuzawa</div>
+        <div style="flex:1; font-weight:700;">Satoshi Matsuzawa</div>
         <div>
-          <a href="#about">About</a>
+          <a href="#about">About Me</a>
           <a href="#research">Research</a>
-          <a href="#cv">CV</a>
+          <a href="https://github.com/satoshimatsuzawa/webpage/blob/main/CV_SatoshiMatsuzawa.pdf">CV</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -48,28 +61,39 @@
       <p class="meta">Based in Tokyo. Available for academic job applications and research collaborations.</p>
     </section>
 
-<section id="research">
-  <h2>Research</h2>
-  
-  <h3>Published Articles</h3>
-  <h4>Organizational Economics</h4>
-  <p>
-    Satoshi Matsuzawa, <i>Optimal incentive power for inter-team competition</i>, 
-    <b>Economics Letters</b>, Volume 239, 2024, 111733,  
-    <a href="https://doi.org/10.1016/j.econlet.2024.111733" target="_blank">Link</a>
-  </p>
+    <section id="research">
+      <h2>Research</h2>
+      <ul>
+        <li>
+          <strong>Published Articles</strong>
+          <ul>
+            <li>
+              <strong>Organizational Economics</strong>
+              <ul>
+                <li>Satoshi Matsuzawa, <i>Optimal incentive power for inter-team competition</i>, <b>Economics Letters</b>, Volume 239, 2024, 111733, <a href="https://doi.org/10.1016/j.econlet.2024.111733" target="_blank">Link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
 
-  <h3>Working Papers</h3>
-  <h4>Development Economics</h4>
-  <ul>
-    <li>Development of Employment Placement Systems in Japan</li>
-    <li>Wedge Accounting Analysis of Long-run Japanese Economic Growth</li>
-  </ul>
-</section>
+        <li>
+          <strong>Working Papers</strong>
+          <ul>
+            <li>
+              <strong>Development Economics</strong>
+              <ul>
+                <li>Development of Employment Placement Systems in Japan</li>
+                <li>Wedge Accounting Analysis of Long-run Japanese Economic Growth</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
 
     <section id="cv">
       <h2>CV</h2>
-      <p><a href="https://github.com/satoshimatsuzawa/webpage/blob/main/CV_SatoshiMatsuzawa.pdf" target="_blank">CV.pdf</a></p>
+      <p><a href="https://github.com/satoshimatsuzawa/webpage/blob/main/CV_SatoshiMatsuzawa.pdf" target="_blank">CV</a></p>
     </section>
 
     <section id="contact">
